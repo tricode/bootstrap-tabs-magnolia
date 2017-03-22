@@ -4,7 +4,7 @@ A Bootstrap tabs component for Magnolia
 
 ## Features
 
-Renders a set of Bootstrap (<http://getbootstrap.com>) tabs.
+A Magnolia component that renders a set of Bootstrap (<http://getbootstrap.com>) tabs.
 
 ![Demo page with component](_dev/README-bootstrap-tabs.png)
 
