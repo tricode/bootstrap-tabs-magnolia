@@ -1,0 +1,3 @@
+dialog: bootstrap-tabs-magnolia:components/bootstrapTabs
+renderType: freemarker
+templateScript: /bootstrap-tabs-magnolia/templates/components/bootstrapTabs.ftl

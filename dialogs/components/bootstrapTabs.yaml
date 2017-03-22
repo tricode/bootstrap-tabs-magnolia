@@ -1,0 +1,31 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: tabs
+          transformerClass: info.magnolia.ui.form.field.transformer.multi.DelegatingMultiValueFieldTransformer
+          class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+          field:
+            transformerClass: info.magnolia.ui.form.field.transformer.composite.DelegatingCompositeFieldTransformer
+            class: info.magnolia.ui.form.field.definition.CompositeFieldDefinition
+            layout: vertical
+            fields:
+              - name: id
+                required: true
+                class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+              - name: title
+                required: true
+                i18n: true
+                class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+              - name: textContent
+                required: true
+                height: 300
+                class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+        - name: fadeEffect
+          type: Boolean
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

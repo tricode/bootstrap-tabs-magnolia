@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="bootstrap-tabs-demo" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+        <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+        <sv:value>Bootstrap Tabs Demo</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="fadeEffect" sv:type="Boolean">
+                <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+                <sv:value>bootstrap-tabs-magnolia:components/bootstrapTabs</sv:value>
+            </sv:property>
+            <sv:node sv:name="tabs0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                    <sv:value>home</sv:value>
+                </sv:property>
+                <sv:property sv:name="textContent" sv:type="String">
+                    <sv:value>&lt;p&gt;Home &lt;strong&gt;text, &lt;/strong&gt;added &lt;u&gt;just for&lt;/u&gt;&lt;strong&gt; &lt;/strong&gt;&lt;em&gt;testing&lt;/em&gt;&lt;strong&gt;!&lt;/strong&gt;&lt;/p&gt;</sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Home</sv:value>
+                </sv:property>
+            </sv:node>
+            <sv:node sv:name="tabs1">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                    <sv:value>profile</sv:value>
+                </sv:property>
+                <sv:property sv:name="textContent" sv:type="String">
+                    <sv:value>&lt;p&gt;Profile text&lt;/p&gt;
+                    </sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Profile</sv:value>
+                </sv:property>
+            </sv:node>
+            <sv:node sv:name="tabs2">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                    <sv:value>messages</sv:value>
+                </sv:property>
+                <sv:property sv:name="textContent" sv:type="String">
+                    <sv:value>&lt;p&gt;Messages text&lt;/p&gt;
+                    </sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Messages</sv:value>
+                </sv:property>
+            </sv:node>
+            <sv:node sv:name="tabs3">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="id" sv:type="String">
+                    <sv:value>settings</sv:value>
+                </sv:property>
+                <sv:property sv:name="textContent" sv:type="String">
+                    <sv:value>&lt;p&gt;Settings text&lt;/p&gt;
+                    </sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Settings</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+        </sv:property>
+    </sv:node>
+</sv:node>
