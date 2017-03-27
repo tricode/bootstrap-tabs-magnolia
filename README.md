@@ -25,7 +25,7 @@ Make the component available to authors, and include the files in `webresources`
 
 (To make this component available on the mtk basic page, you could use the decoration included in `_dev/decorations`.)
 
-This component makes use of the Bootstrap library (<http://getbootstrap.com>), both CSS and JS. This Bootstrap component uses jQuery, so dont' forget to add that as a dependency too.
+This component makes use of the Bootstrap library (<http://getbootstrap.com>), both CSS and JS. This Bootstrap component uses jQuery, so don't forget to add that as a dependency too.
 
 ## Demo
 
